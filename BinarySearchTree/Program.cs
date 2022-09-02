@@ -13,12 +13,16 @@ class Program
         binarySearchTreeOne.Add(11);
         binarySearchTreeOne.Add(16);
         binarySearchTreeOne.Add(3);
-        binarySearchTreeOne.Add(60);
+        binarySearchTreeOne.Add(62);
         binarySearchTreeOne.Add(95);
         binarySearchTreeOne.Add(65);
         binarySearchTreeOne.Add(63);
         binarySearchTreeOne.Add(67);
 
         Console.WriteLine("No of elements in binary search tree are : {0} ", binarySearchTreeOne.Size());
+        binarySearchTreeOne.DisplayInOrder();
+
+        // UC 3 Search for an element
+        binarySearchTreeOne.Search(62);
     }
 }
